@@ -37,9 +37,9 @@ def create_app():
             status_code=413
         )
     @app.errorhandler(500)
-    def file_not_found(e):
+    def internal_server_error(e):
         return error_response(
-            message="File not found",
+            message="Something went wrong on the server",
             status_code=500
         )
     return app

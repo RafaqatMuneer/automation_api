@@ -37,7 +37,7 @@ def validate_file(request):
         allowed = ", ".join(Config.ALLOWED_EXTENSIONS)
         return False,f"File type is not allowed. Allowed Types: {allowed}", None
     file_content = file.read()
-    print(f"DEBUG: File size is {len(file_content)} bytes") # Check the size here!
+    # print(f"DEBUG: File size is {len(file_content)} bytes") # Check the size here!
     # 4. File have some content
     #need to remove white spaces, newlines, or empty JSON braces
     cleaned_content = file_content.strip()

@@ -1,7 +1,7 @@
 import os
 
 class Config:
-    APP_Name = "AutomatePK API"
+    APP_NAME = "AutomatePK API"
     VERSION = "1.0.0"
     DEBUG = True
 
