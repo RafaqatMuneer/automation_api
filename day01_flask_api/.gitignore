@@ -24,7 +24,6 @@ Thumbs.db
 *.log
 
 # Uploads
-uploads/
 *.csv
 *.json
 !requirements.txt
