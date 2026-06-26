@@ -1,6 +1,6 @@
 from flask import Flask
 from config import Config
-from utils.response import success_response, error_response
+from utils.response import error_response
 from routes.products import products_bp
 
 
