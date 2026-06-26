@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # Root project folder
-project_name = "day02_file_upload/"
+project_name = "day03_csv_to_json/"
 
 # Files to create
 files = [
@@ -11,10 +11,12 @@ files = [
     "utils/__init__.py",
     "utils/response.py",
     "utils/file_handler.py",
+    "utils/data_converter.py",
     "routes/__init__.py",
     "routes/products.py",
     "routes/health.py",
     "routes/uploads.py",
+    "routes/convert.py",
     "uploads/.gitkeep"
 ]
 
